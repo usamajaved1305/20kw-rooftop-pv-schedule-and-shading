@@ -1,0 +1,44 @@
+date,hour,sun_elevation_deg,sun_azimuth_deg,sample_points_in_sun_pct,shaded_by
+21 Mar,07:00,9.4,96.1,49.6,coping 18; parapet 54; row in front 260; stair room 212
+21 Mar,08:00,21.7,105.1,79.8,coping 18; parapet 18; row in front 75; stair room 107
+21 Mar,09:00,33.4,115.7,95.1,coping 18; stair room 35
+21 Mar,10:00,43.9,129.4,100.0,
+21 Mar,11:00,52.2,148.3,100.0,
+21 Mar,12:00,56.4,173.1,100.0,
+21 Mar,13:00,55.0,199.8,100.0,
+21 Mar,14:00,48.5,221.8,100.0,
+21 Mar,15:00,39.0,237.9,100.0,
+21 Mar,16:00,27.8,249.9,98.3,coping 6; parapet 12
+21 Mar,17:00,15.7,259.6,92.2,coping 30; parapet 54
+21 Jun,06:00,10.8,69.0,82.2,stair room 192
+21 Jun,07:00,22.7,76.2,88.5,stair room 124
+21 Jun,08:00,35.0,83.3,94.3,stair room 62
+21 Jun,09:00,47.5,91.1,97.5,stair room 27
+21 Jun,10:00,59.9,101.3,99.4,stair room 7
+21 Jun,11:00,71.6,119.3,100.0,
+21 Jun,12:00,79.5,167.5,100.0,
+21 Jun,13:00,75.0,230.2,100.0,
+21 Jun,14:00,63.8,254.2,100.0,
+21 Jun,15:00,51.5,265.9,100.0,
+21 Jun,16:00,39.1,274.3,100.0,
+21 Jun,17:00,26.7,281.5,98.9,coping 12
+21 Sep,07:00,12.6,97.6,57.9,coping 18; parapet 36; row in front 210; stair room 191
+21 Sep,08:00,24.8,106.9,83.5,parapet 18; row in front 80; stair room 80
+21 Sep,09:00,36.3,118.1,97.5,stair room 27
+21 Sep,10:00,46.5,132.9,100.0,
+21 Sep,11:00,54.0,153.3,100.0,
+21 Sep,12:00,57.0,179.5,100.0,
+21 Sep,13:00,54.2,205.7,100.0,
+21 Sep,14:00,46.8,226.4,100.0,
+21 Sep,15:00,36.7,241.3,99.4,coping 6
+21 Sep,16:00,25.2,252.6,97.2,coping 12; parapet 18
+21 Sep,17:00,13.0,261.9,90.0,coping 30; parapet 78
+21 Dec,08:00,8.3,125.4,40.6,coping 2; parapet 90; row in front 400; stair room 149
+21 Dec,09:00,17.8,135.7,69.3,parapet 54; row in front 255; stair room 23
+21 Dec,10:00,25.5,147.9,80.0,coping 18; parapet 18; row in front 180
+21 Dec,11:00,30.8,162.4,90.5,parapet 18; row in front 85
+21 Dec,12:00,32.9,178.4,98.3,coping 18
+21 Dec,13:00,31.4,194.5,100.0,
+21 Dec,14:00,26.8,209.4,98.3,coping 6; parapet 12
+21 Dec,15:00,19.5,222.0,95.0,coping 18; parapet 36
+21 Dec,16:00,10.3,232.6,84.4,coping 42; parapet 126

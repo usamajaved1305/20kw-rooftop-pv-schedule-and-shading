@@ -1,0 +1,103 @@
+ERMHDR	25.12	2026-09-26	Project	ADMIN	Usama Javed	dbxDatabaseNoName	Project Management	PKR
+%T	CURRTYPE
+%F	curr_id	decimal_digit_cnt	curr_symbol	decimal_symbol	digit_group_symbol	pos_curr_fmt_type	neg_curr_fmt_type	curr_type	curr_short_name	group_digit_cnt	base_exch_rate
+%R	1	2	Rs	.	,	#1.1	(#1.1)	Pakistan Rupee	PKR	3	1
+%R	10	2	$	.	,	#1.1	(#1.1)	Argentine Peso	ARS	3	3.077
+%R	11	2	A$	.	,	#1.1	(#1.1)	Australian Dollar	AUST	3	1.208
+%R	13	2	R$	.	,	#1.1	(#1.1)	Brazilian Real	BRL	3	2.014
+%R	14	2	£	.	,	#1.1	(#1.1)	British Pound	U.K.	3	0.501762
+%R	15	2	CA$	.	,	#1.1	(#1.1)	Canadian Dollar	CAD	3	1.10573
+%R	16	2	Y	.	,	#1.1	(#1.1)	Chinese Yuan	CNY	3	7.694
+%R	17	2	€	.	,	#1.1	(#1.1)	EURO	EUR	3	0.739088
+%R	20	2	HK$	.	,	#1.1	(#1.1)	Hong Kong Dollar	HKD	3	7.81967
+%R	21	2	Rs	.	,	#1.1	(#1.1)	Indian Rupee	INR	3	40.67
+%R	23	2	¥	.	,	#1.1	(#1.1)	Japanese Yen	JPY	3	120.167
+%R	24	2	K	.	,	#1.1	(#1.1)	Korean Won	KRW	3	924.743
+%R	25	2	N$	.	,	#1.1	(#1.1)	Mexican Peso	MXN	3	10.7938
+%R	26	2	R	.	,	#1.1	(#1.1)	Russian Rouble	RUB	3	25.8085
+%R	28	2	Sk	.	,	#1.1	(#1.1)	Swedish Krona	SEK	3	6.80579
+%R	29	2	kr	.	,	#1.1	(#1.1)	Swiss Franc	CHF	3	1.21864
+%R	30	2	NIS	.	,	#1.1	(#1.1)	Israel Shekel	ILS	3	3.96384
+%T	FINTMPL
+%F	fintmpl_id	fintmpl_name	default_flag
+%R	1	Calendar	Y
+%T	OBS
+%F	obs_id	parent_obs_id	guid	seq_num	obs_name	obs_descr
+%R	565			0	Enterprise	<HTML><BODY></BODY></HT
+%T	PROJECT
+%F	proj_id	fy_start_month_num	rsrc_self_add_flag	allow_complete_flag	rsrc_multi_assign_flag	checkout_flag	project_flag	step_complete_flag	cost_qty_recalc_flag	batch_sum_flag	name_sep_char	def_complete_pct_type	proj_short_name	acct_id	orig_proj_id	source_proj_id	base_type_id	clndr_id	sum_base_proj_id	task_code_base	task_code_step	priority_num	wbs_max_sum_level	strgy_priority_num	last_checksum	critical_drtn_hr_cnt	def_cost_per_qty	last_recalc_date	plan_start_date	plan_end_date	scd_end_date	add_date	last_tasksum_date	fcst_start_date	def_duration_type	task_code_prefix	guid	def_qty_type	add_by_name	web_local_root_path	proj_url	def_rate_type	add_act_remain_flag	act_this_per_link_flag	def_task_type	act_pct_link_flag	critical_path_type	task_code_prefix_flag	def_rollup_dates_flag	use_project_baseline_flag	rem_target_link_flag	reset_planned_flag	allow_neg_act_flag	sum_assign_level	last_fin_dates_id	fintmpl_id	last_baseline_update_date	cr_external_key	apply_actuals_date	location_id	last_schedule_date	loaded_scope_level	export_flag	new_fin_dates_id	baselines_to_export	baseline_names_to_export	next_data_date	base_proj_id	base_proj_id1	base_proj_id2	close_period_flag	sum_refresh_date	trsrcsum_loaded	sumtask_loaded
+%R	368	1	Y	Y	Y	N	Y	N	N	Y	.	CP_Drtn	RES-20					638	370	1000	10	10	2	500		0	0.0000	2026-10-05 00:00	2026-10-05 00:00		2026-11-02 17:00	2026-09-25 00:00			DT_FixedDUR2	A	RLr6l4wu9E22PB/glIvliQ	QT_Hour	ADMIN			COST_PER_QTY	N	Y	TT_Task	Y	CT_TotFloat	Y	Y	Y	Y	N	N	SL_Taskrsrc		1					2026-09-26 01:36	7	Y					370						
+%T	CALENDAR
+%F	clndr_id	default_flag	clndr_name	proj_id	base_clndr_id	last_chng_date	clndr_type	day_hr_cnt	week_hr_cnt	month_hr_cnt	year_hr_cnt	rsrc_private	clndr_data
+%R	638	N	6 Day Workweek Mon to Sat			2026-09-25 00:00	CA_Base	8	40	172	2000	N	(0||CalendarData()(  (0||DaysOfWeek()(    (0||1()())    (0||2()(      (0||0(s|08:00|f|12:00)())      (0||1(s|13:00|f|17:00)())))    (0||3()(      (0||0(s|08:00|f|12:00)())      (0||1(s|13:00|f|17:00)())))    (0||4()(      (0||0(s|08:00|f|12:00)())      (0||1(s|13:00|f|17:00)())))    (0||5()(      (0||0(s|08:00|f|12:00)())      (0||1(s|13:00|f|17:00)())))    (0||6()(      (0||0(s|08:00|f|12:00)())      (0||1(s|13:00|f|17:00)())))    (0||7()(      (0||0(s|08:00|f|16:00)())))))  (0||VIEW(ShowTotal|Y)())  (0||Exceptions()())))
+%T	SCHEDOPTIONS
+%F	schedoptions_id	proj_id	sched_outer_depend_type	sched_open_critical_flag	sched_lag_early_start_flag	sched_retained_logic	sched_setplantoforecast	sched_float_type	sched_calendar_on_relationship_lag	sched_use_expect_end_flag	sched_progress_override	level_float_thrs_cnt	level_outer_assign_flag	level_outer_assign_priority	level_over_alloc_pct	level_within_float_flag	level_keep_sched_date_flag	level_all_rsrc_flag	sched_use_project_end_date_for_float	enable_multiple_longest_path_calc	limit_multiple_longest_path_calc	max_multiple_longest_path	use_total_float_multiple_longest_paths	key_activity_for_multiple_longest_paths	LevelPriorityList
+%R	1	368	SD_Both	N	Y	Y	N	FT_FF	rcal_Predecessor	Y	N	0	N	5	25	N	Y	Y	Y	N	Y	10	Y		priority_type,ASC_BY_FIELD/ASC
+%T	PROJWBS
+%F	wbs_id	proj_id	obs_id	seq_num	est_wt	proj_node_flag	sum_data_flag	status_code	wbs_short_name	wbs_name	phase_id	parent_wbs_id	ev_user_pct	ev_etc_user_value	orig_cost	indep_remain_total_cost	ann_dscnt_rate_pct	dscnt_period_type	indep_remain_work_qty	anticip_start_date	anticip_end_date	ev_compute_type	ev_etc_compute_type	guid	tmpl_guid	plan_open_state
+%R	3680	368	565	1	1	Y	N	WS_Open	RES-20	20 kW On-Grid Residential Solar System		3667	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_Rem_hr	HkLXxnDAlkq9ap5cIr+lIg		
+%R	3682	368	565	100	1	N	N	WS_Open	1.1	Design and Approvals		3680	0	0	0.0000	0.0000						EC_Cmp_pct	EE_Rem_hr	iujkujxn9EeUvRnThWv+lA		
+%R	3683	368	565	200	1	N	N	WS_Open	1.2	Procurement		3680	0	0	0.0000	0.0000						EC_Cmp_pct	EE_Rem_hr	uaJnc2NyLEeXQyCmci+NXA		
+%R	3684	368	565	300	1	N	N	WS_Open	1.3	Installation		3680	0	0	0.0000	0.0000						EC_Cmp_pct	EE_Rem_hr	arTES6Km1UGR1EjH6lTrnw		
+%R	3685	368	565	400	1	N	N	WS_Open	1.4	Testing, Commissioning and Handover		3680	0	0	0.0000	0.0000						EC_Cmp_pct	EE_Rem_hr	zF9S9lBjG0+Q4QEqB0JB6w		
+%T	TASK
+%F	task_id	proj_id	wbs_id	clndr_id	phys_complete_pct	rev_fdbk_flag	est_wt	lock_plan_flag	auto_compute_act_flag	complete_pct_type	task_type	duration_type	status_code	task_code	task_name	rsrc_id	total_float_hr_cnt	free_float_hr_cnt	remain_drtn_hr_cnt	act_work_qty	remain_work_qty	target_work_qty	target_drtn_hr_cnt	target_equip_qty	act_equip_qty	remain_equip_qty	cstr_date	act_start_date	act_end_date	late_start_date	late_end_date	expect_end_date	early_start_date	early_end_date	restart_date	reend_date	target_start_date	target_end_date	rem_late_start_date	rem_late_end_date	cstr_type	priority_type	suspend_date	resume_date	float_path	float_path_order	guid	tmpl_guid	cstr_date2	cstr_type2	driving_path_flag	act_this_per_work_qty	act_this_per_equip_qty	external_early_start_date	external_late_end_date	create_date	update_date	create_user	update_user	location_id	crt_path_num
+%R	35847	368	3682	638	0	N	0	N	N	CP_Drtn	TT_Mile	DT_FixedDUR2	TK_NotStart	A1000	Project start		0	0	0	0	0	0	0	0	0	0				2026-10-05 08:00	2026-10-05 08:00		2026-10-05 08:00	2026-10-05 08:00	2026-10-05 08:00	2026-10-05 08:00	2026-10-05 08:00	2026-10-05 08:00	2026-10-05 08:00	2026-10-05 08:00		PT_Normal					ug4QeBuVHUuToX1IKSB+Pw				Y	0	0								
+%R	35848	368	3682	638	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A1010	Site survey and roof assessment		0	0	8	0	0	0	8	0	0	0				2026-10-05 08:00	2026-10-05 17:00		2026-10-05 08:00	2026-10-05 17:00	2026-10-05 08:00	2026-10-05 17:00	2026-10-05 08:00	2026-10-05 17:00	2026-10-05 08:00	2026-10-05 17:00		PT_Normal					uqPVCJAUXEGDdCPjco+UGw				Y	0	0								
+%R	35849	368	3682	638	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A1020	System design, layout and single line diagram		0	0	24	0	0	0	24	0	0	0				2026-10-06 08:00	2026-10-08 17:00		2026-10-06 08:00	2026-10-08 17:00	2026-10-06 08:00	2026-10-08 17:00	2026-10-06 08:00	2026-10-08 17:00	2026-10-06 08:00	2026-10-08 17:00		PT_Normal					PvK9ygCcUkS9T0vzbph/TA				Y	0	0								
+%R	35850	368	3682	638	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A1030	Client design review and sign-off		0	0	8	0	0	0	8	0	0	0				2026-10-09 08:00	2026-10-09 17:00		2026-10-09 08:00	2026-10-09 17:00	2026-10-09 08:00	2026-10-09 17:00	2026-10-09 08:00	2026-10-09 17:00	2026-10-09 08:00	2026-10-09 17:00		PT_Normal					IKTI4Z6TZEKm3OCYcjn6hQ				Y	0	0								
+%R	35851	368	3682	638	0	N	0	N	N	CP_Drtn	TT_FinMile	DT_FixedDUR2	TK_NotStart	A1040	Design approved		0	0	0	0	0	0	0	0	0	0				2026-10-09 17:00	2026-10-09 17:00		2026-10-09 17:00	2026-10-09 17:00	2026-10-09 17:00	2026-10-09 17:00	2026-10-09 17:00	2026-10-09 17:00	2026-10-09 17:00	2026-10-09 17:00		PT_Normal					5Hmhx+9zWUmeVdEN/VX5Vw				Y	0	0								
+%R	35852	368	3682	638	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A1050	Submit grid connection application		16	0	8	0	0	0	8	0	0	0				2026-10-13 08:00	2026-10-13 17:00		2026-10-10 08:00	2026-10-10 16:00	2026-10-10 08:00	2026-10-10 16:00	2026-10-10 08:00	2026-10-10 16:00	2026-10-13 08:00	2026-10-13 17:00		PT_Normal					AyPSMFVOW0qkrEqONERv8w				N	0	0								
+%R	35853	368	3682	638	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A1060	Utility approval and metering (external)		16	16	112	0	0	0	112	0	0	0				2026-10-14 08:00	2026-10-29 17:00		2026-10-12 08:00	2026-10-27 17:00	2026-10-12 08:00	2026-10-27 17:00	2026-10-12 08:00	2026-10-27 17:00	2026-10-14 08:00	2026-10-29 17:00		PT_Normal					fnj27iF4TUiEyP/ZC3jIRw				N	0	0								
+%R	35854	368	3683	638	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A2010	Bill of materials and purchase orders		0	0	8	0	0	0	8	0	0	0				2026-10-10 08:00	2026-10-10 16:00		2026-10-10 08:00	2026-10-10 16:00	2026-10-10 08:00	2026-10-10 16:00	2026-10-10 08:00	2026-10-10 16:00	2026-10-10 08:00	2026-10-10 16:00		PT_Normal					Gj9XW9UHk06N2zjA1tjZMQ				Y	0	0								
+%R	35855	368	3683	638	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A2020	Module delivery, Longi 550 W N-type		56	56	40	0	0	0	40	0	0	0				2026-10-20 08:00	2026-10-24 16:00		2026-10-12 08:00	2026-10-16 17:00	2026-10-12 08:00	2026-10-16 17:00	2026-10-12 08:00	2026-10-16 17:00	2026-10-20 08:00	2026-10-24 16:00		PT_Normal					p4Th1sXW30iUg+ThLCslIw				N	0	0								
+%R	35856	368	3683	638	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A2030	Inverter delivery, Growatt 20 kW		40	32	48	0	0	0	48	0	0	0				2026-10-17 08:00	2026-10-23 17:00		2026-10-12 08:00	2026-10-17 16:00	2026-10-12 08:00	2026-10-17 16:00	2026-10-12 08:00	2026-10-17 16:00	2026-10-17 08:00	2026-10-23 17:00		PT_Normal					C81MwvMyVEiEg4RKoJo0Qg				N	0	0			2026-09-26 00:42	2026-09-26 00:43	NotPrmUser	NotPrmUser		
+%R	35857	368	3683	638	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A2040	Mounting structure fabrication and delivery		0	0	56	0	0	0	56	0	0	0				2026-10-12 08:00	2026-10-19 17:00		2026-10-12 08:00	2026-10-19 17:00	2026-10-12 08:00	2026-10-19 17:00	2026-10-12 08:00	2026-10-19 17:00	2026-10-12 08:00	2026-10-19 17:00		PT_Normal					/5cEUICM6EOj6w8Ud5j/tw				Y	0	0								
+%R	35858	368	3683	638	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A2050	Cables, protection and earthing delivery		72	64	32	0	0	0	32	0	0	0				2026-10-22 08:00	2026-10-26 17:00		2026-10-12 08:00	2026-10-15 17:00	2026-10-12 08:00	2026-10-15 17:00	2026-10-12 08:00	2026-10-15 17:00	2026-10-22 08:00	2026-10-26 17:00		PT_Normal					BARYTOPQjkWtIEaAaqIDDA				N	0	0								
+%R	35859	368	3684	638	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A3010	Site mobilisation, induction and setup		0	0	8	0	0	0	8	0	0	0				2026-10-20 08:00	2026-10-20 17:00		2026-10-20 08:00	2026-10-20 17:00	2026-10-20 08:00	2026-10-20 17:00	2026-10-20 08:00	2026-10-20 17:00	2026-10-20 08:00	2026-10-20 17:00		PT_Normal					0HTLiph+/0mQBECqLamxkw				Y	0	0								
+%R	35860	368	3684	638	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A3020	Install mounting structure		0	0	32	0	0	0	32	0	0	0				2026-10-21 08:00	2026-10-24 16:00		2026-10-21 08:00	2026-10-24 16:00	2026-10-21 08:00	2026-10-24 16:00	2026-10-21 08:00	2026-10-24 16:00	2026-10-21 08:00	2026-10-24 16:00		PT_Normal					p3c9tD7hg0GCUu4mhnKzRQ				Y	0	0								
+%R	35861	368	3684	638	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A3030	Install PV modules		0	0	24	0	0	0	24	0	0	0				2026-10-26 08:00	2026-10-28 17:00		2026-10-26 08:00	2026-10-28 17:00	2026-10-26 08:00	2026-10-28 17:00	2026-10-26 08:00	2026-10-28 17:00	2026-10-26 08:00	2026-10-28 17:00		PT_Normal					W3/yY9Sm1kK1pgRSO55XrA				Y	0	0								
+%R	35862	368	3684	638	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A3040	DC string cabling and terminations		0	0	16	0	0	0	16	0	0	0				2026-10-27 08:00	2026-10-28 17:00		2026-10-27 08:00	2026-10-28 17:00	2026-10-27 08:00	2026-10-28 17:00	2026-10-27 08:00	2026-10-28 17:00	2026-10-27 08:00	2026-10-28 17:00		PT_Normal					iQK95qLG+EOWW9sOt3cXAw				Y	0	0								
+%R	35863	368	3684	638	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A3050	Mount inverter and AC/DC protection boxes		8	0	16	0	0	0	16	0	0	0				2026-10-24 08:00	2026-10-26 17:00		2026-10-23 08:00	2026-10-24 16:00	2026-10-23 08:00	2026-10-24 16:00	2026-10-23 08:00	2026-10-24 16:00	2026-10-24 08:00	2026-10-26 17:00		PT_Normal					e71iDgw0SUqu1U4yObE3RQ				N	0	0								
+%R	35864	368	3684	638	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A3060	AC cabling to distribution board		8	8	16	0	0	0	16	0	0	0				2026-10-27 08:00	2026-10-28 17:00		2026-10-26 08:00	2026-10-27 17:00	2026-10-26 08:00	2026-10-27 17:00	2026-10-26 08:00	2026-10-27 17:00	2026-10-27 08:00	2026-10-28 17:00		PT_Normal					/Qj0jKvrjke6otRB2hRbCw				N	0	0								
+%R	35865	368	3684	638	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A3070	Earthing and lightning protection		8	8	16	0	0	0	16	0	0	0				2026-10-27 08:00	2026-10-28 17:00		2026-10-26 08:00	2026-10-27 17:00	2026-10-26 08:00	2026-10-27 17:00	2026-10-26 08:00	2026-10-27 17:00	2026-10-27 08:00	2026-10-28 17:00		PT_Normal					jyz/ufGdcUGeVRjZk0N+fA				N	0	0								
+%R	35866	368	3684	638	0	N	0	N	N	CP_Drtn	TT_FinMile	DT_FixedDUR2	TK_NotStart	A3080	Mechanical and electrical completion		0	0	0	0	0	0	0	0	0	0				2026-10-28 17:00	2026-10-28 17:00		2026-10-28 17:00	2026-10-28 17:00	2026-10-28 17:00	2026-10-28 17:00	2026-10-28 17:00	2026-10-28 17:00	2026-10-28 17:00	2026-10-28 17:00		PT_Normal					sxtgfTHS/0WGGj4dcVl8sg				Y	0	0								
+%R	35867	368	3685	638	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A4010	Pre-commissioning inspection and testing		0	0	8	0	0	0	8	0	0	0				2026-10-29 08:00	2026-10-29 17:00		2026-10-29 08:00	2026-10-29 17:00	2026-10-29 08:00	2026-10-29 17:00	2026-10-29 08:00	2026-10-29 17:00	2026-10-29 08:00	2026-10-29 17:00		PT_Normal					zN6Dwet/zEa3OTawdfPwyw				Y	0	0								
+%R	35868	368	3685	638	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A4020	Inverter setup, energisation and commissioning		0	0	8	0	0	0	8	0	0	0				2026-10-30 08:00	2026-10-30 17:00		2026-10-30 08:00	2026-10-30 17:00	2026-10-30 08:00	2026-10-30 17:00	2026-10-30 08:00	2026-10-30 17:00	2026-10-30 08:00	2026-10-30 17:00		PT_Normal					LAWsKi9HsUuLzkobI1k3tQ				Y	0	0								
+%R	35869	368	3685	638	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A4030	Snagging and rectification		0	0	8	0	0	0	8	0	0	0				2026-10-31 08:00	2026-10-31 16:00		2026-10-31 08:00	2026-10-31 16:00	2026-10-31 08:00	2026-10-31 16:00	2026-10-31 08:00	2026-10-31 16:00	2026-10-31 08:00	2026-10-31 16:00		PT_Normal					4cJZaqBN+ki/ASOdWqlwJw				Y	0	0								
+%R	35870	368	3685	638	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A4040	As-builts, monitoring setup and handover		0	0	8	0	0	0	8	0	0	0				2026-11-02 08:00	2026-11-02 17:00		2026-11-02 08:00	2026-11-02 17:00	2026-11-02 08:00	2026-11-02 17:00	2026-11-02 08:00	2026-11-02 17:00	2026-11-02 08:00	2026-11-02 17:00		PT_Normal					Sz78WAoTL0WiD+iSrXPR5w				Y	0	0								
+%R	35871	368	3685	638	0	N	0	N	N	CP_Drtn	TT_FinMile	DT_FixedDUR2	TK_NotStart	A4050	Project complete		0	0	0	0	0	0	0	0	0	0				2026-11-02 17:00	2026-11-02 17:00		2026-11-02 17:00	2026-11-02 17:00	2026-11-02 17:00	2026-11-02 17:00	2026-11-02 17:00	2026-11-02 17:00	2026-11-02 17:00	2026-11-02 17:00		PT_Normal					1xUvQfSPekmRQSA5y5wvEA				Y	0	0								
+%T	TASKPRED
+%F	task_pred_id	task_id	pred_task_id	proj_id	pred_proj_id	pred_type	lag_hr_cnt	comments	float_path	aref	arls
+%R	1232	35848	35847	368	368	PR_FS	0			2026-10-05 08:00	2026-10-05 08:00
+%R	1233	35849	35848	368	368	PR_FS	0			2026-10-05 17:00	2026-10-06 08:00
+%R	1234	35850	35849	368	368	PR_FS	0			2026-10-08 17:00	2026-10-09 08:00
+%R	1235	35851	35850	368	368	PR_FS	0			2026-10-09 17:00	2026-10-09 17:00
+%R	1236	35852	35851	368	368	PR_FS	0			2026-10-09 17:00	2026-10-13 08:00
+%R	1237	35853	35852	368	368	PR_FS	0			2026-10-10 16:00	2026-10-14 08:00
+%R	1238	35854	35851	368	368	PR_FS	0			2026-10-09 17:00	2026-10-10 08:00
+%R	1239	35855	35854	368	368	PR_FS	0			2026-10-10 16:00	2026-10-20 08:00
+%R	1240	35856	35854	368	368	PR_FS	0			2026-10-10 16:00	2026-10-17 08:00
+%R	1241	35857	35854	368	368	PR_FS	0			2026-10-10 16:00	2026-10-12 08:00
+%R	1242	35858	35854	368	368	PR_FS	0			2026-10-10 16:00	2026-10-22 08:00
+%R	1243	35859	35857	368	368	PR_FS	0			2026-10-19 17:00	2026-10-20 08:00
+%R	1244	35860	35859	368	368	PR_FS	0			2026-10-20 17:00	2026-10-21 08:00
+%R	1245	35861	35860	368	368	PR_FS	0			2026-10-24 16:00	2026-10-26 08:00
+%R	1246	35861	35855	368	368	PR_FS	0			2026-10-16 17:00	2026-10-26 08:00
+%R	1247	35862	35861	368	368	PR_SS	8			2026-10-26 17:00	2026-10-22 08:00
+%R	1248	35863	35860	368	368	PR_SS	16			2026-10-22 17:00	2026-10-17 08:00
+%R	1249	35863	35856	368	368	PR_FS	0			2026-10-17 16:00	2026-10-24 08:00
+%R	1250	35864	35863	368	368	PR_FS	0			2026-10-24 16:00	2026-10-27 08:00
+%R	1251	35864	35858	368	368	PR_FS	0			2026-10-15 17:00	2026-10-27 08:00
+%R	1252	35865	35860	368	368	PR_FS	0			2026-10-24 16:00	2026-10-27 08:00
+%R	1253	35866	35861	368	368	PR_FS	0			2026-10-28 17:00	2026-10-28 17:00
+%R	1254	35866	35862	368	368	PR_FS	0			2026-10-28 17:00	2026-10-28 17:00
+%R	1255	35866	35864	368	368	PR_FS	0			2026-10-27 17:00	2026-10-28 17:00
+%R	1256	35866	35865	368	368	PR_FS	0			2026-10-27 17:00	2026-10-28 17:00
+%R	1257	35867	35866	368	368	PR_FS	0			2026-10-28 17:00	2026-10-29 08:00
+%R	1258	35868	35867	368	368	PR_FS	0			2026-10-29 17:00	2026-10-30 08:00
+%R	1259	35868	35853	368	368	PR_FS	0			2026-10-27 17:00	2026-10-30 08:00
+%R	1260	35869	35868	368	368	PR_FS	0			2026-10-30 17:00	2026-10-31 08:00
+%R	1261	35870	35869	368	368	PR_FS	0			2026-10-31 16:00	2026-11-02 08:00
+%R	1262	35871	35870	368	368	PR_FS	0			2026-11-02 17:00	2026-11-02 17:00
+%E

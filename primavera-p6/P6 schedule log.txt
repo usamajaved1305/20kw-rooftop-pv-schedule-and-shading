@@ -1,0 +1,95 @@
+﻿Scheduling/Leveling Report - 2026-09-26 01:36:13 - PM.EXE
+=========================================================
+
+	Default Project..................................................RES-20
+	Use scheduling options from......................................RES-20
+
+	Projects: 
+		RES-20...........................................................20 kW On-Grid Residential Solar System
+
+Scheduling/Leveling Settings:
+-----------------------------
+	General
+	-------
+	Scheduling ......................................................Yes
+	Leveling ........................................................No
+	Ignore relationships to and from other projects .................No
+	Make open-ended activities critical .............................No
+	Use Expected Finish Dates .......................................Yes
+	Schedule automatically when a change affects dates ..............No
+	Level resources during scheduling ...............................No
+	Recalculate assignment costs after scheduling ...................No
+	When scheduling progressed activities use .......................Retained Logic
+	Calculate start-to-start lag from ...............................Early Start
+	Define critical activities as Total Float less than or equal to .0
+	Compute Total Float As ..........................................Finish Float
+	Calculate float based on finish date of .........................Each project
+	Calendar for scheduling Relationship Lag ........................Predecessor Activity Calendar
+
+	Advanced
+	--------
+	Calculate multiple float paths...................................No
+
+Statistics:
+-----------
+	# Projects.......................................................1
+	# Activities.....................................................25
+	# Not Started....................................................25
+	# In Progress....................................................0
+	# Completed......................................................0
+	# Relationships..................................................31
+	# Activities with Constraint.....................................0
+
+Errors:
+-------
+Warnings:
+---------
+	Activities without predecessors..................................1
+		Project:	RES-20	Activity:	A1000	Project start
+
+	Activities without successors....................................1
+		Project:	RES-20	Activity:	A4050	Project complete
+
+	Out-of-sequence activities.......................................0
+
+	Activities with Actual Dates > Data Date.........................0
+
+	Milestone Activities with atypical relationships.................0
+
+	Finish milestone and predecessors have different calendars.......0
+
+Scheduling/Leveling Results:
+----------------------------
+	# Projects Scheduled/Leveled.....................................1
+	# Activities Scheduled/Leveled...................................25
+	# Relationships with other projects..............................0
+	Data Date........................................................05-Oct-26
+	Earliest Early Start Date........................................05-Oct-26
+	Latest Early Finish Date.........................................02-Nov-26
+Exceptions:
+-----------
+	Critical Activities..............................................17
+		Project:	RES-20	Activity:	A1000	Project start
+		Project:	RES-20	Activity:	A1010	Site survey and roof assessment
+		Project:	RES-20	Activity:	A1020	System design, layout and single line diagram
+		Project:	RES-20	Activity:	A1030	Client design review and sign-off
+		Project:	RES-20	Activity:	A1040	Design approved
+		Project:	RES-20	Activity:	A2010	Bill of materials and purchase orders
+		Project:	RES-20	Activity:	A2040	Mounting structure fabrication and delivery
+		Project:	RES-20	Activity:	A3010	Site mobilisation, induction and setup
+		Project:	RES-20	Activity:	A3020	Install mounting structure
+		Project:	RES-20	Activity:	A3030	Install PV modules
+		Project:	RES-20	Activity:	A3040	DC string cabling and terminations
+		Project:	RES-20	Activity:	A3080	Mechanical and electrical completion
+		Project:	RES-20	Activity:	A4010	Pre-commissioning inspection and testing
+		Project:	RES-20	Activity:	A4020	Inverter setup, energisation and commissioning
+		Project:	RES-20	Activity:	A4030	Snagging and rectification
+		Project:	RES-20	Activity:	A4040	As-builts, monitoring setup and handover
+		Project:	RES-20	Activity:	A4050	Project complete
+
+	Activities with unsatisfied constraints..........................0
+
+	Activities with unsatisfied relationships........................0
+
+	Activities with external dates...................................0
+

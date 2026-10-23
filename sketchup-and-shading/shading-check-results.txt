@@ -1,0 +1,23 @@
+sample points: 1080 (36 modules x 3 across x 10 up the slope)
+sun positions, four dates, hourly, elevation > 5 deg and in front of the modules: 43 (left out, sun behind the modules: 21 Jun 18:00)
+array solar access: 92.0%
+worst module: row 3, module 6: 76.7%
+best module: row 6, module 6: 97.3%
+  21 Dec 08:00: sun 8.3 deg up, az 125.4, sample points in sun 40.6%  [coping 2; parapet 90; row in front 400; stair room 149]
+  21 Dec 09:00: sun 17.8 deg up, az 135.7, sample points in sun 69.3%  [parapet 54; row in front 255; stair room 23]
+  21 Dec 10:00: sun 25.5 deg up, az 147.9, sample points in sun 80.0%  [coping 18; parapet 18; row in front 180]
+  21 Dec 11:00: sun 30.8 deg up, az 162.4, sample points in sun 90.5%  [parapet 18; row in front 85]
+  21 Dec 12:00: sun 32.9 deg up, az 178.4, sample points in sun 98.3%  [coping 18]
+  21 Dec 13:00: sun 31.4 deg up, az 194.5, sample points in sun 100.0%  []
+  21 Dec 14:00: sun 26.8 deg up, az 209.4, sample points in sun 98.3%  [coping 6; parapet 12]
+  21 Dec 15:00: sun 19.5 deg up, az 222.0, sample points in sun 95.0%  [coping 18; parapet 36]
+  21 Dec 16:00: sun 10.3 deg up, az 232.6, sample points in sun 84.4%  [coping 42; parapet 126]
+annual clear-sky direct beam lost to shading (weekly, 15 min): 3.83%
+  of which row in front (nearest object on the ray): 1.61%
+  of which stair room (nearest object on the ray): 1.38%
+  of which parapet (nearest object on the ray): 0.55%
+  of which coping (nearest object on the ray): 0.30%
+worst module annual beam loss: row 3, module 6: 17.51%
+21 Dec, no row's shadow reaches the row behind from 11:55 until sunset (last sun-up step 16:55; exact edge geometry, 5 min steps)
+21 Dec, how far the row in front's shadow climbs up each module from its low edge: 9:00 0.58 m; 10:00 0.30 m; 11:00 0.12 m; 11:30 0.05 m; 12:00 0.00 m
+21 Dec 12:00: sun 32.86 deg up, az 178.4; in plan, the shadow of a row's rear top edge reaches 0.909 m along +Y by the height of the next row's front top edge, against a gap of 0.930 m: margin 0.021 m
