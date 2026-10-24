@@ -37,7 +37,7 @@ The same 20 kW residential programme built in Microsoft Project (`ms-project/20-
 Drawn in OpenSolar on the 11.7 m by 17.7 m roof in F-11/2, Islamabad:
 - **Layout**: 36 LONGi 550 W modules (19.8 kWp) in 6 rows of 6 on single-tilt frames at 20 deg, turned to **148 deg** to line up with the house rather than due south, with **2.80 m row pitch** and clear walkways around the stair room.
 - **Stringing**: two strings of 18 into one Growatt MID 20KTL3-X (DC/AC ratio 0.99); the three north west rows make one string and the three south east rows the other.
-- **Performance**: NREL System Advisor Model gives **27,283 kWh a year** (**1,378 kWh/kWp**) at 13.8% system losses, covering **114%** of a 24,000 kWh annual household load. Because the roof is drawn on flat satellite imagery, OpenSolar leaves shading out.
+- **Performance**: NREL System Advisor Model gives **27,283 kWh a year** (**1,378 kWh/kWp**) at 13.8% system losses, covering **114%** of an assumed 24,000 kWh annual household load. Because the roof is drawn on flat satellite imagery, OpenSolar leaves shading out.
 
 ![OpenSolar Roof Layout](images/opensolar-01-roof-layout.jpg)
 ![OpenSolar Inverter and Strings](images/opensolar-02-inverter-and-strings.jpg)
@@ -65,8 +65,8 @@ Modelled in 3D in SketchUp (`sketchup-and-shading/20-kW-rooftop-pv-islamabad.skp
 
 ## Related Solar PV Engineering, Planning and Analytics Projects by Usama Javed
 
-- **Portfolio Website**: [usamajaved.ie](https://usamajaved.ie) ([Project Planner / Scheduler](https://usamajaved.ie/roles/planning) · [Solar Project / Technical Engineer](https://usamajaved.ie/roles/project-engineering) · [Site Supervisor / Field Delivery](https://usamajaved.ie/roles/site-delivery) · [Energy / Reporting Analyst](https://usamajaved.ie/roles/energy-analytics))
-- **[80kw-pv-bess-autocad-dispatch](https://github.com/usamajaved1305/80kw-pv-bess-autocad-dispatch)**: 80 kW commercial rooftop PV and 63 kWh FoxESS battery storage in AutoCAD 2027 (A1 sheets PV-01, PV-03, PV-04) and 8,760-hour Python dispatch simulation
+- **Portfolio Website**: [usamajaved.ie](https://usamajaved.ie) ([Project Planning Engineer](https://usamajaved.ie/roles/planning) · [Solar PV Project Engineer](https://usamajaved.ie/roles/project-engineering) · [Solar Site Supervisor](https://usamajaved.ie/roles/site-delivery) · [Energy and Reporting Analyst](https://usamajaved.ie/roles/energy-analytics))
+- **[80kw-pv-bess-autocad-dispatch](https://github.com/usamajaved1305/80kw-pv-bess-autocad-dispatch)**: 79 kWp commercial rooftop PV on an 80 kW hybrid inverter with 63 kWh FoxESS battery storage in AutoCAD 2027 (design study) (A1 sheets PV-01, PV-03, PV-04) and 8,760-hour Python dispatch simulation
 - **[115kwp-solar-energy-yield-python](https://github.com/usamajaved1305/115kwp-solar-energy-yield-python)**: 115 kWp commercial rooftop PV energy yield model in Python (Jupyter, pandas, matplotlib, PVGIS ERA5) and HelioScope simulation
 - **[115kwp-solar-bom-cost-procurement](https://github.com/usamajaved1305/115kwp-solar-bom-cost-procurement)**: 115 kWp commercial rooftop PV BOM, string voltage verification, procurement tracker and cost control in Excel, SQLite and Power BI
 - **[20kw-rooftop-pv-schedule-and-shading](https://github.com/usamajaved1305/20kw-rooftop-pv-schedule-and-shading)**: 20 kW residential rooftop PV installation programme (Primavera P6 and MS Project), OpenSolar proposal and SketchUp 3D ray-traced shading check
